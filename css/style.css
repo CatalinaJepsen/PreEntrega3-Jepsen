@@ -372,38 +372,6 @@ main div div form section fieldset div div input {
   border-radius: 5px;
   margin-top: 5px; }
 
-.headerBackground {
-  background: linear-gradient(149deg, #efd8a4 1%, #ffb260 57%, maroon 100%); }
-  .headerBackground div button {
-    width: 100px;
-    height: 40px;
-    font-weight: 700;
-    background-color: #ffb260;
-    border-color: maroon;
-    border-radius: 15px;
-    margin-right: 60px;
-    animation-name: efecto_boton;
-    animation-iteration-count: infinite;
-    animation-duration: 0.5s; }
-
-main div div form fieldset input {
-  width: 60px;
-  height: 30px;
-  font-weight: 700;
-  background-color: #ffb260;
-  border-color: maroon;
-  border-radius: 5px;
-  margin-top: 5px; }
-
-main div div form section fieldset div div input {
-  width: 60px;
-  height: 30px;
-  font-weight: 700;
-  background-color: #ffb260;
-  border-color: maroon;
-  border-radius: 5px;
-  margin-top: 5px; }
-
 @media screen and (max-width: 480px) {
   .footer {
     flex-wrap: wrap; } }
