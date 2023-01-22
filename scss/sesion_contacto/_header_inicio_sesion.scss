@@ -1,0 +1,18 @@
+.headerBackground {
+  background: $color-footer;
+
+  div {
+    button {
+      width: 100px;
+      height: 40px;
+      font-weight: 700;
+      background-color: $color-secundario;
+      border-color: $button-border;
+      border-radius: 15px;
+      margin-right: 60px;
+      animation-name: efecto_boton;
+      animation-iteration-count: infinite;
+      animation-duration: 0.5s;
+    }
+  }
+}

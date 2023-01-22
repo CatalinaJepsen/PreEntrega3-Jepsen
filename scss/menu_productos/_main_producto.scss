@@ -1,0 +1,23 @@
+main {
+  div {
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  div {
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .volverAtras {
+        font-weight: 700;
+        background-color: $color-secundario;
+        border-color: $button-border;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+    }
+  }
+}

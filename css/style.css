@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *::selection {
+    background-color: maroon;
+    color: white; }
+
+body {
+  background-color: #efd8a4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black; }
+
+ul li {
+  list-style: none; }
+
+header nav form .btn-formulario1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #efd8a4;
+  border-radius: 25px;
+  border-color: maroon;
+  border-style: outset;
+  border-width: 3px; }
+
+header nav form .btn-formulario2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #efd8a4;
+  border-radius: 25px;
+  border-color: maroon;
+  border-style: outset;
+  border-width: 3px; }
+
+header {
+  background-image: url("../../assets/images/banner.webp");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header nav a .logo1 {
+    width: 100px; }
+
+main div .menu__inicio {
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 1rem; }
+  main div .menu__inicio .menu__inicio__item {
+    -webkit-animation: scale-in-center 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: scale-in-center 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 900;
+    background-color: #ffb260;
+    border-color: maroon;
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 5px; }
+    main div .menu__inicio .menu__inicio__item:hover {
+      background-color: #fcd1a4;
+      border-color: #f1b1b1;
+      transform: scale(1.2);
+      animation-name: efecto_letra;
+      animation-iteration-count: infinite; }
+  main div .menu__inicio .menu__inicio__item1 {
+    animation-delay: 0.3s; }
+  main div .menu__inicio .menu__inicio__item2 {
+    animation-delay: 0.6s; }
+  main div .menu__inicio .menu__inicio__item3 {
+    animation-delay: 0.9s; }
+  main div .menu__inicio .menu__inicio__item4 {
+    animation-delay: 1.2s; }
+  main div .menu__inicio .menu__inicio__item5 {
+    animation-delay: 1.5s; }
+
+main .sectionFoto {
+  -webkit-animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem; }
+  main .sectionFoto .aumento_escala:hover {
+    transform: scale(1.2); }
+  main .sectionFoto .aumento_escala div .fotoUno {
+    width: 220px;
+    height: 200px; }
+    main .sectionFoto .aumento_escala div .fotoUno:hover {
+      transform: scale(1.2); }
+  main .sectionFoto .aumento_escala div .card-img-overlay {
+    color: rgba(255, 255, 255, 0);
+    font-weight: 600; }
+    main .sectionFoto .aumento_escala div .card-img-overlay:hover {
+      animation-name: efecto_letras;
+      animation-iteration-count: infinite;
+      animation-duration: 10s; }
+    main .sectionFoto .aumento_escala div .card-img-overlay h5 {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+    main .sectionFoto .aumento_escala div .card-img-overlay p {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.sectionInfo {
+  display: flex;
+  margin-bottom: 4rem; }
+  .sectionInfo div .parrafo {
+    -webkit-animation: rotate-in-2-bl-ccw 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: rotate-in-2-bl-ccw 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    display: flex;
+    background-color: #ffb260b6;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    flex-wrap: wrap; }
+    .sectionInfo div .parrafo h2 {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+    .sectionInfo div .parrafo p {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+  .sectionInfo div .video {
+    -webkit-animation: rotate-in-2-br-cw 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: rotate-in-2-br-cw 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    flex-wrap: wrap; }
+    .sectionInfo div .video h2 {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+div a .botonWsp {
+  -webkit-animation: heartbeat 2s steps(2, end) infinite both;
+  animation: heartbeat 2s steps(2, end) infinite both;
+  height: 80px;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  z-index: 99;
+  border-radius: 700px; }
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes efecto_letras {
+  0% {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: white;
+    font-weight: 700; }
+  100% {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: white;
+    font-weight: 700; } }
+
+@-webkit-keyframes rotate-in-2-bl-ccw {
+  0% {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    opacity: 1; } }
+
+@keyframes rotate-in-2-bl-ccw {
+  0% {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    opacity: 1; } }
+
+@-webkit-keyframes rotate-in-2-br-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1; } }
+
+@keyframes rotate-in-2-br-cw {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    opacity: 1; } }
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+
+.footer {
+  height: 5em;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(149deg, #efd8a4 1%, #ffb260 57%, maroon 100%);
+  margin-top: 5rem;
+  width: 100%;
+  align-items: center;
+  margin-top: auto; }
+  .footer div a button {
+    width: 100px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    background-color: #ffb260;
+    border-color: maroon;
+    border-radius: 15px;
+    margin-left: 20px;
+    animation-name: efecto_boton;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s; }
+  .footer nav ul .redesSociales {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 100;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; }
+    .footer nav ul .redesSociales:hover {
+      font-weight: bold; }
+
+@keyframes efecto_boton {
+  0% {
+    width: 100 px;
+    height: 40px;
+    border-color: #ffb260; } }
+
+main div h1 {
+  display: flex;
+  justify-content: center; }
+
+main div a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main div a .volverAtras {
+    font-weight: 700;
+    background-color: #ffb260;
+    border-color: maroon;
+    border-radius: 5px;
+    margin-top: 5px; }
+
+.headerBackground {
+  background: linear-gradient(149deg, #efd8a4 1%, #ffb260 57%, maroon 100%); }
+  .headerBackground div button {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #ffb260;
+    border-color: maroon;
+    border-radius: 15px;
+    margin-right: 60px;
+    animation-name: efecto_boton;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s; }
+
+main div div form fieldset input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+main div div form section fieldset div div input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+.headerBackground {
+  background: linear-gradient(149deg, #efd8a4 1%, #ffb260 57%, maroon 100%); }
+  .headerBackground div button {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #ffb260;
+    border-color: maroon;
+    border-radius: 15px;
+    margin-right: 60px;
+    animation-name: efecto_boton;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s; }
+
+main div div form fieldset input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+main div div form section fieldset div div input {
+  width: 60px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-radius: 5px;
+  margin-top: 5px; }
+
+@media screen and (max-width: 480px) {
+  .footer {
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 320px) {
+  .fotoUno {
+    height: 150px;
+    width: 130px; }
+  iframe {
+    width: 200px; }
+  .botonWsp {
+    display: none; } }

@@ -1,0 +1,17 @@
+@for $i from 1 through 2 {
+    header {
+        nav {
+            form {
+                .btn-formulario#{$i} {
+        font-family: $font;
+        background-color: $background-color;
+        border-radius: 25px;
+        border-color: $button-border;
+        border-style: outset;
+        border-width: 3px;
+    }
+            }
+        }
+    }
+    
+}
