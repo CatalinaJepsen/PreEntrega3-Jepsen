@@ -39,7 +39,7 @@ header nav form .btn-formulario2 {
   border-width: 3px; }
 
 header {
-  background-image: url("../../assets/images/banner.webp");
+  background-image: url("../assets/images/banner.webp");
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover; }
